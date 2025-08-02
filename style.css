@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(500deg, #030303 50%, #011f0b);
+  font-family: Arial, Helvetica, sans-serif;
+  color: gainsboro;
+}
+
+span {
+  color: #9fff3fda;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  /* background-color: #011f0b; */
+}
+
+.site-logo span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cta-hero h6 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 4rem;
+}
+
+.intro-content {
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.section-heading {
+  font-size: 2.4rem;
+}
+
+.section-description {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 8px;
+  color: rgba(220, 220, 220, 0.596);
+}
+
+.cta-hero > button {
+  border: none;
+  padding: 13px;
+  margin: 10px;
+  background-color: #7fff00;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform ease 0.3s;
+}
+
+.cta-hero > button:hover {
+   background-color: #80ff00;
+  opacity: 0.9;
+}
+
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 6rem;
+}
+
+.about-text > p {
+  width: 58%;
+  text-align: justify;
+}
+
+li {
+  list-style-type: none;
+}
+
+.features-list {
+  background-color: rgba(220, 220, 220, 0.226);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.section-subheading {
+  color: gainsboro;
+  font-size: 30px;
+  padding-bottom: 2rem;
+}
+
+.testimonials > h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.testimonial-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+}
+
+.testimonial-item {
+  background-color: rgba(255, 250, 240, 0.048);
+  color: rgb(167, 158, 158);
+  text-align: justify;
+  margin: 2rem;
+  width: 400px;
+  padding: 40px;
+  height: 200px;
+  border-radius: 18px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.testimonial-item:hover {
+ transform: scale(1.05); /* faz o "zoom" */
+}
+
+.testimonial-item > p {
+  margin-bottom: 15px;
+}
+
+.testimonial-name {
+  color: rgb(170, 172, 49);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form {
+  width: 500px;
+  height: 480px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.233);
+  color: #f1f1f1;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+.btn-submit {
+  margin-top: 20px;
+  padding: 12px;
+  background: greenyellow;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 3rem;
+}
+
+.contact-info {
+  font-size: 15px;
+  padding: 15px;
+}
+
+.contact-info > h3 {
+  color: chartreuse;
+}
+
+.faq-title {
+  text-transform: uppercase;
+  font-size: 13px;
+  padding-bottom: 10px;
+  color: rgba(220, 220, 220, 0.76);
+}
+
+.faq-section {
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.faq-section > h3 {
+  color: rgba(127, 196, 58, 0.788);
+}
+
+.faq-block {
+  border-bottom: 1px solid #444;
+  padding: 10px 0;
+}
+
+.faq-toggle {
+  background: none;
+  border: none;
+  width: 500px;
+  text-align: left;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq-response {
+  display: none;
+  padding: 10px 0;
+  color: #ccc;
+}
+
+.faq-toggle.active + .faq-response {
+  display: block;
+}
+
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #7aff9b00;
+  padding: 15px;
+}
+
+.footer-personal > h3 {
+  color: #fcfff9d7;
+  letter-spacing: 3px;
+}
+
+.simbolo {
+  color: #7fff00;
+}
+
+.icon > img {
+ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 40%; /* para deixar redondo */
+  padding: 5px;       /* espaço interno */
+  background-color: #0000009a; /* melhora o destaque */
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.icon img:hover {
+  transform: scale(1.1); /* efeito de zoom ao passar o mouse */
+}

@@ -12,7 +12,7 @@ Uma landing page moderna e responsiva desenvolvida para promover os serviços de
 
 ## 🔗 Deploy
 
-Acesse a versão online do projeto aqui: [https://seuprojeto.com](https://seuprojeto.com)
+Acesse a versão online do projeto aqui: [https://structcodes.github.io/site-personal-trainer/)
 
 ---
 
@@ -45,3 +45,4 @@ O layout foi cuidadosamente planejado para se adaptar a diferentes tamanhos de t
 ## 🙋‍♀️ Autora
 
 Feito por **Tainá Roberta!**
+
